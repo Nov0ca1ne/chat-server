@@ -56,11 +56,11 @@ module.exports = appInfo => {
 
   config.minio = {
     client: {
-      endPoint: '8.134.215.69',
+      endPoint: 'XXXXXXXXX',
       port: 9001,
       useSSL: false,
-      accessKey: 'vMl1hlT0zeX4TFf0',
-      secretKey: 'LoylS3TwrDFRmGqePV6yBIXnCLir6uzl',
+      accessKey: 'XXXXXXX',
+      secretKey: 'XXXXXXXXXX',
     },
     bucket: 'user-info', // public 权限 不过期 用户信息
     bucket2: 'chat-history', // private 权限（无法直接访问） 七天过期 聊天记录的图片视频
@@ -94,7 +94,7 @@ module.exports = appInfo => {
     dialect: 'mysql',
     host: '127.0.0.1',
     username: 'root',
-    password: 'l784249504',
+    password: 'XXXXXXXXXXX',
     port: 3306,
     database: 'chat',
     // 中国时区
