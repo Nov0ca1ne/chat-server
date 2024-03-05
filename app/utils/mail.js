@@ -4,7 +4,7 @@ const config = {
   port: 465,
   auth: {
     user: '1833268234@qq.com', // 你的qq邮箱账号
-    pass: 'txvdcjkoxvinbdhe', // 邮箱的授权码
+    pass: 'XXXXXXXXXXX', // 邮箱的授权码
   },
 };
 
